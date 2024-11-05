@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            kosonto();
+            Console.WriteLine(osszeadas(18, 90));
         }
+
+        static void kosonto()
+        {
+            Console.WriteLine("helló világ");
+        }
+        static int osszeadas(int a, int b)
+        {
+            int osszeg = a + b;
+            return osszeg;  // VAGY return a+b
+        }
+
     }
 }
